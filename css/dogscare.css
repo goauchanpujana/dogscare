@@ -1,0 +1,133 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.first_page{
+    background-image: url(https://wp.w3layouts.com/dogscare/wp-content/themes/dogscare/assets/images/banner1.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.nav_bar{
+    position: sticky;
+    height: 0px;
+    width:100%;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    background-color:mistyrose;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li{
+    margin: 0 30px;
+}
+nav a{
+    color: black; 
+    font-size: 18px;
+    padding: 10px 15px;
+    justify-content: space-between;
+}
+
+.dogs_desc{
+    padding: 100px;
+}
+
+.pets{
+    font-family:sans-serif;
+    margin-top: 100px;
+}
+
+.btn{
+    display: flex;
+}
+
+.second_page{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    background-color:floralwhite;
+}
+
+.third_page{
+    padding: 30px;
+    background-color: azure;
+}
+
+.we_do{
+    text-align: center;
+}
+
+.fourth_page{
+    display: flex;
+    padding: 70px;
+    align-items:center ;
+    justify-content:space-evenly;
+    background-color: beige;
+   
+}
+
+.fifth_page{
+    background-color: lightgray;
+    padding: 40px;
+}
+
+.gallery{
+    text-align: center;
+}
+
+.our_gallery{
+    margin-left: 90px;
+}
+
+.dog_jobs{
+    padding: 80px;
+}
+
+.sixth_page{
+    display: flex;
+}
+
+.dog_pic{
+    margin-left: 150px;
+}
+
+.seventh_page{
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.dogs_news{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.contribution{
+    display: flex;
+    justify-content: space-between;
+}
+
+.eighth_page{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    font-size: 18px;
+}
+
+.paw_pic{
+    align-items: center;
+}
+
+.news_letter{
+    font-size: 18px;
+}
